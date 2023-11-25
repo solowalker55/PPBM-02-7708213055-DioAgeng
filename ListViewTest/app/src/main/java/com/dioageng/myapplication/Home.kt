@@ -16,5 +16,11 @@ class Home : AppCompatActivity() {
             val Intent = Intent(this, SimpleListView::class.java)
             startActivity(Intent)
         }
+
+        val goToCustomListView = findViewById<CardView>(R.id.gotocustomlist)
+        goToCustomListView.setOnClickListener{
+            val Intent = Intent(this, CustomList::class.java)
+            startActivity(Intent)
+        }
     }
 }
