@@ -4,25 +4,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="16dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_margin="10dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/white">
 
             <LinearLayout
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
 
                 <ImageView
                     android:id="@+id/fruit_background"
@@ -34,12 +37,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:background="@color/white">
 
                 <TextView
                     android:id="@+id/fruit_name"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="10dp"/>
 
             </LinearLayout>
 

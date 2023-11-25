@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,20 +25,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@color/white">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Simple List"
                     android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:textAlignment="center"
                     android:text="My Demonstration for SImple ListView Tag"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -53,20 +57,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@color/white">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Custom List"
                     android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:textAlignment="center"
                     android:text="My Demonstration for Custom ListView Tag"
-                    android:textSize="16dp"/>
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
@@ -81,15 +88,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dio"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="dio12.ds6@gmail.com"
-            android:textStyle="italic"/>
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+62895 6031 54970"/>
+            android:text="+62895 6031 54970"
+            android:textColor="@color/black"/>
     </LinearLayout>
 </LinearLayout>

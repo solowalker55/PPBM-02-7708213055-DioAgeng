@@ -24,7 +24,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:background="@color/white">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -43,7 +44,8 @@
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:elevation="10dp"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/white">
             <ImageView
                 android:id="@+id/fruit_bg"
                 android:layout_width="match_parent"
@@ -55,14 +57,16 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Fruit Name"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/fruit_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Description for Fruit beneficial"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 </LinearLayout>
