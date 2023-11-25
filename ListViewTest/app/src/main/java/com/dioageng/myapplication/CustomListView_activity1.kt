@@ -49,7 +49,7 @@ class CustomListView_activity1 : AppCompatActivity() {
 
         val goToCustomListView = findViewById<CardView>(R.id.backtolist_customlistview_activity1)
         goToCustomListView.setOnClickListener{
-            val Intent = Intent(this, SimpleListView::class.java)
+            val Intent = Intent(this, CustomList::class.java)
             startActivity(Intent)
         }
     }
