@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- Add your fruit descriptions here -->
+    <string name="anggur_description">Description for Anggur beneficial</string>
+    <string name="apel_description">Description for Apel beneficial</string>
+    <string name="belimbing_description">Description for Belimbimg beneficial</string>
+    <string name="blueberry_description">Description for Blueberry beneficial</string>
+    <string name="jambu_description">Description for Jmabu beneficial</string>
+    <string name="jeruk_description">Description for Jeruk beneficial</string>
+    <!-- Add similar entries for other fruits -->
+</resources>
