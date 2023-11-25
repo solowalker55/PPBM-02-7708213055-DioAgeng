@@ -1,11 +1,56 @@
 package com.dioageng.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 
 class CustomListView_activity1 : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_custom_list_view1)
+
+        // Get the selected fruit name from the intent
+        val selectedFruit: String? = intent.getStringExtra("fruit_name")
+
+        // Check if selectedFruit is not null before using it
+        if (selectedFruit != null) {
+            // Set the title (fruit name) in the TextView
+            val titleTextView: TextView = findViewById(R.id.textview_selectedItem)
+            titleTextView.text = selectedFruit
+
+            // Set the description in the TextView based on the selected fruit
+            val descriptionTextView: TextView = findViewById(R.id.fruit_description)
+            val descriptionResId = resources.getIdentifier(
+                "${selectedFruit.toLowerCase()}_description",
+                "string",
+                packageName
+            )
+            // Check if descriptionResId is not 0 before getting the string
+            if (descriptionResId != 0) {
+                descriptionTextView.text = getString(descriptionResId)
+            }
+
+            // Set the image based on the selected fruit
+            val imageView: ImageView = findViewById(R.id.fruit_bg)
+            val imageResId = resources.getIdentifier(
+                selectedFruit.toLowerCase(),
+                "drawable",
+                packageName
+            )
+            // Check if imageResId is not 0 before setting the image
+            if (imageResId != 0) {
+                imageView.setImageResource(imageResId)
+            }
+        }
+
+        val goToCustomListView = findViewById<CardView>(R.id.backtolist_customlistview_activity1)
+        goToCustomListView.setOnClickListener{
+            val Intent = Intent(this, SimpleListView::class.java)
+            startActivity(Intent)
+        }
     }
 }
