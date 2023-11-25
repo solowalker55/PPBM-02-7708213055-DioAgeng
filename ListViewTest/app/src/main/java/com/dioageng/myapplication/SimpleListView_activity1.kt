@@ -48,4 +48,11 @@ class SimpleListView_activity1 : AppCompatActivity() {
             startActivity(Intent)
         }
     }
+
+    override fun onBackPressed() {
+        // Handle the back button press
+        // For example, navigate to a certain activity
+        val intent = Intent(this, SimpleListView::class.java)
+        startActivity(intent)
+    }
 }
