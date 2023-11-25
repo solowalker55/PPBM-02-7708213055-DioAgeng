@@ -2,11 +2,11 @@
     <string name="app_name">My Application</string>
 
     <!-- Add your fruit descriptions here -->
-    <string name="anggur_description">Description for Anggur beneficial</string>
-    <string name="apel_description">Description for Apel beneficial</string>
-    <string name="belimbing_description">Description for Belimbimg beneficial</string>
-    <string name="blueberry_description">Description for Blueberry beneficial</string>
-    <string name="jambu_description">Description for Jmabu beneficial</string>
-    <string name="jeruk_description">Description for Jeruk beneficial</string>
+    <string name="anggur_description">Anggur kaya akan antioksidan, terutama resveratrol, yang dapat mendukung kesehatan jantung. Kandungan vitamin C dan K-nya, serta tingginya kandungan air, mendukung hidrasi. Serat pada anggur membantu pencernaan, dan buah ini dapat berkontribusi pada peningkatan fungsi kekebalan tubuh.</string>
+    <string name="apel_description">Apel adalah sumber serat dan antioksidan yang baik. Serat larut membantu mengatur kadar gula darah, sementara antioksidan mendukung kesehatan secara keseluruhan. Apel juga mengandung vitamin dan mineral yang mendukung kesehatan jantung dan membantu pengelolaan berat badan.</string>
+    <string name="belimbing_description">Belimbing rendah kalori dan tinggi vitamin C, memberikan dukungan sistem kekebalan tubuh. Juga mengandung serat pangan yang membantu pencernaan. Antioksidan pada belimbing dapat membantu melawan peradangan dan melindungi dari beberapa penyakit kronis.</string>
+    <string name="blueberry_description">Blueberry kaya akan antioksidan, terutama anthocyanin, yang terkait dengan kesehatan otak. Blueberry dapat meningkatkan daya ingat dan fungsi kognitif. Buah ini juga kaya vitamin C dan K, serta serat, yang mendukung kesehatan jantung dan pencernaan.</string>
+    <string name="jambu_description">Jambu adalah sumber vitamin C yang sangat baik, mendukung fungsi sistem kekebalan tubuh. Kandungan serat yang tinggi membantu pencernaan dan menjaga berat badan yang sehat. Jambu juga menyediakan kalium, mendukung kesehatan jantung dan membantu mengatur tekanan darah.</string>
+    <string name="jeruk_description">Jeruk kaya akan vitamin C, yang penting untuk mendukung sistem kekebalan tubuh. Jeruk juga mengandung serat, membantu pencernaan dan mendukung kesehatan jantung. Jeruk menyediakan antioksidan, termasuk flavonoid, yang dapat memiliki sifat anti-inflamasi dan anti-kanker.</string>
     <!-- Add similar entries for other fruits -->
 </resources>
